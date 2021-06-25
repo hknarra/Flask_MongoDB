@@ -1,3 +1,7 @@
+"""
+working with local MongoDB client
+"""
+
 import pymongo
 dbConn = pymongo.MongoClient("mongodb://localhost:27017/")
 
