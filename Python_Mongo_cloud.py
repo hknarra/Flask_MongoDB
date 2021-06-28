@@ -8,7 +8,7 @@ import urllib.parse
 username = urllib.parse.quote_plus('mongokittu')
 password = urllib.parse.quote_plus("kittu@1mongo")
 
-cluster = pymongo.MongoClient("mongodb+srv://{}:{}@cluster0.svyqr.mongodb.net/HK_DB1?retryWrites=true&w=majority")
+cluster = pymongo.MongoClient("mongodb+srv://{}:{}@cluster0.svyqr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
 dbname='HK_DB1'
